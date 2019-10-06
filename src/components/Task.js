@@ -23,7 +23,13 @@ const Task = ({ task: { id, title, state }, test }) => {
       </label>
 
       <div className="title">
-        <input type="text" value={title} readOnly={true} />
+        <input
+          type="text"
+          value={title}
+          readOnly={true}
+          placeholder="Input title"
+          style={{ textOverflow: "ellipsis" }}
+        />
       </div>
 
       <div className="actions" onClick={event => event.stopPropagation()}>
