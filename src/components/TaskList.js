@@ -43,7 +43,8 @@ const TaskList = ({ loading }) => {
 
   const tasksInOrder = [
     ...tasks.filter(task => task.state === "TASK_PINNED"),
-    ...tasks.filter(task => task.state !== "TASK_PINNED")
+    ...tasks.filter(task => task.state === "TASK_INBOX"),
+    ...tasks.filter(task => task.state === "TASK_ARCHIVED")
   ];
 
   return (

@@ -25,7 +25,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -70,7 +70,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -115,7 +115,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -160,7 +160,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -205,7 +205,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -250,7 +250,7 @@ exports[`Storyshots InboxScreen default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -324,7 +324,7 @@ exports[`Storyshots Task archived 1`] = `
     className="checkbox"
   >
     <input
-      defaultChecked={true}
+      checked={true}
       disabled={true}
       name="checked"
       type="checkbox"
@@ -364,7 +364,7 @@ exports[`Storyshots Task default 1`] = `
     className="checkbox"
   >
     <input
-      defaultChecked={false}
+      checked={false}
       disabled={true}
       name="checked"
       type="checkbox"
@@ -412,7 +412,7 @@ exports[`Storyshots Task long title 1`] = `
     className="checkbox"
   >
     <input
-      defaultChecked={false}
+      checked={false}
       disabled={true}
       name="checked"
       type="checkbox"
@@ -460,7 +460,7 @@ exports[`Storyshots Task pinned 1`] = `
     className="checkbox"
   >
     <input
-      defaultChecked={false}
+      checked={false}
       disabled={true}
       name="checked"
       type="checkbox"
@@ -518,7 +518,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -563,7 +563,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -608,7 +608,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -653,7 +653,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -698,7 +698,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -743,7 +743,7 @@ exports[`Storyshots TaskList default 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -982,7 +982,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -1027,7 +1027,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -1072,7 +1072,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -1117,7 +1117,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -1162,7 +1162,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
@@ -1207,7 +1207,7 @@ exports[`Storyshots TaskList withPinnedTasks 1`] = `
         className="checkbox"
       >
         <input
-          defaultChecked={false}
+          checked={false}
           disabled={true}
           name="checked"
           type="checkbox"
