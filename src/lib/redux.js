@@ -41,4 +41,8 @@ const defaultTasks = [
 ];
 
 export { actions, archiveTask, pinTask, reducer };
-export default createStore(reducer, { tasks: defaultTasks });
+export default createStore(
+  reducer,
+  { tasks: defaultTasks },
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
