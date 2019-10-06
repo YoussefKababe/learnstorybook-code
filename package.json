@@ -13,8 +13,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "CI=true start-server-and-test storybook:ci http://localhost:9009 test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
+    "storybook:ci": "CI=true start-storybook -p 9009 -s public --ci --quiet",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -43,6 +45,7 @@
     "@storybook/theming": "^5.2.1",
     "babel-plugin-macros": "^2.6.1",
     "react-test-renderer": "^16.10.2",
-    "require-context.macro": "^1.2.2"
+    "require-context.macro": "^1.2.2",
+    "start-server-and-test": "^1.10.4"
   }
 }
