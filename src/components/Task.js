@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 
 import { archiveTask, pinTask } from "../lib/redux";
 
-const Task = ({ task: { id, title, state } }) => {
+const Task = ({ task: { id, title, state }, test }) => {
   const dispatch = useDispatch();
 
   return (
