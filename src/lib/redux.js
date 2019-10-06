@@ -34,10 +34,12 @@ const reducer = (state, action) => {
 };
 
 const defaultTasks = [
-  { id: "1", title: "Something", state: "TASK_INBOX" },
-  { id: "2", title: "Something more", state: "TASK_INBOX" },
-  { id: "3", title: "Something else", state: "TASK_INBOX" },
-  { id: "4", title: "Something again", state: "TASK_INBOX" }
+  { id: "1", title: "Learn JavaScript", state: "TASK_INBOX" },
+  { id: "2", title: "Learn Node.js", state: "TASK_INBOX" },
+  { id: "3", title: "Learn React", state: "TASK_INBOX" },
+  { id: "4", title: "Learn React Native", state: "TASK_INBOX" },
+  { id: "5", title: "Create a test App", state: "TASK_INBOX" },
+  { id: "6", title: "Throw everything away and run", state: "TASK_PINNED" }
 ];
 
 export { actions, archiveTask, pinTask, reducer };
